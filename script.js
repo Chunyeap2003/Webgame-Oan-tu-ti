@@ -15,6 +15,7 @@ function playGame(playerChoice){
     else {
         result = "Bạn thua";
     }
-    document.getElementById("result").innerText= 
+    
+    document.getElementById("result").innerText = 
     `Bạn chọn: ${playerChoice.toUpperCase()} - Máy chọn: ${computerChoice.toUpperCase()} \n Kết quả: ${result}`;
 }

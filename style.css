@@ -24,7 +24,7 @@ body{
 }
 .content{
     font-size: 14px;
-    color: #333
+    color: #333;
 }
 .image{
     width:100%;
@@ -33,13 +33,13 @@ body{
 }
 .caption{
     font-style: italic;
-    font-size: 122px;
+    font-size: 12px;
     text-align: center;
     color:#666;
 }
 button{
     font-size: 18px;
-    padding: 10px 20 px;
+    padding:10px 20 px;
     margin: 10px;
     cursor:pointer;
     border: none;
@@ -50,7 +50,7 @@ button{
 button:hover{
     background-color: #0056b3;
 }
-result{
+#result{
     font-size:20px;
     font-weight: bold;
     margin-top: 20px;

@@ -1,6 +1,6 @@
 function playGame(playerChoice){
     const choices = ["keo","bua","bao"];
-    const computerChoice = choice[Math.floor(Math.random()*choices.length)];
+    const computerChoice = choices[Math.floor(Math.random()*choices.length)];
 
     let result = "";
     if(playerChoice === computerChoice) {

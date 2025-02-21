@@ -1,5 +1,5 @@
 function playGame(playerChoice){
-    const choice = ["keo","bua","bao"];
+    const choices = ["keo","bua","bao"];
     const computerChoice = choice[Math.floor(Math.random()*choices.length)];
 
     let result = "";
@@ -16,5 +16,5 @@ function playGame(playerChoice){
         result = "Bạn thua";
     }
     document.getElementById("result").innerText= 
-    'Bạn chọn: ${playerChoice.toUpperCase()} - Máy chọn: ${computerChoice.toUpperCase()} \n Kết quả: ${result}';
+    `Bạn chọn: ${playerChoice.toUpperCase()} - Máy chọn: ${computerChoice.toUpperCase()} \n Kết quả: ${result}`;
 }

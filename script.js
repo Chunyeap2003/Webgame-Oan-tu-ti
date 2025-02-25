@@ -17,5 +17,5 @@ function playGame(playerChoice){
     }
 
     document.getElementById("result").innerText = 
-    `Bạn chọn: ${playerChoice.toUpperCase()} </b> - Máy chọn: ${computerChoice.toUpperCase()} </b> Kết quả: ${result}`;
+    `Bạn chọn: ${playerChoice.toUpperCase()} - Máy chọn: ${computerChoice.toUpperCase()} \n Kết quả: ${result}`;
 }
